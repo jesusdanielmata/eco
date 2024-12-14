@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 1rem;
+    transition: all 0.6s ease-in-out;
+    
+}
+.logo {
+    width: 7.5rem;
+}
+.seacr{
+    margin-right: 2rem;
+}
+header a{
+    color: white;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 0.70rem;
+    height: 2.5rem;
+}
+header div img{
+    width: 7rem;
+}
+header div nav ul{
+    display: flex;
+    gap: 2rem;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+.Section_number_one{
+    background-image:linear-gradient(#0000003d, #0000003d ), url('./assets/Background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+        /* centr en el eje Y */
+        align-items: end;
+        /* centr en el eje X */
+        justify-content: center;
+}
+.Section_number_one div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+.Title{
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.ver_mas{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-direction: row !important;
+}
+.boton a{
+    color: white;
+}
+.boton{ 
+    background-color: #8566AA; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+
+
+.Section_number_Tow{
+    height: 100vh;
+}
